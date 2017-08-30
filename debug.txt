@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SeleniumGenerator 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SeleniumGenerator ---
+[INFO] Deleting D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SeleniumGenerator ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SeleniumGenerator ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 22 source files to D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SeleniumGenerator ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SeleniumGenerator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SeleniumGenerator ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SeleniumGenerator ---
+[INFO] Building jar: D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\SeleniumGenerator.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.5.1:copy-dependencies (copy-dependencies) @ SeleniumGenerator ---
+[INFO] Copying commons-lang-2.6.jar to D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\dependency-jars\commons-lang-2.6.jar
+[INFO] Copying gson-2.2.4.jar to D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\dependency-jars\gson-2.2.4.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.1:shade (default) @ SeleniumGenerator ---
+[INFO] Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\SeleniumGenerator.jar with D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\target\SeleniumGenerator-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: D:\Books\SourceCode\SeleniumBase\SeleniumGenerator\dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.088 s
+[INFO] Finished at: 2017-08-30T17:14:57+07:00
+[INFO] Final Memory: 18M/177M
+[INFO] ------------------------------------------------------------------------
